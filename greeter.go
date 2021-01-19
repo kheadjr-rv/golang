@@ -5,7 +5,7 @@ type Greeter interface {
 	SayHello() string
 }
 
-// Greet takes a greeter and prints its greeting.
+// Greet takes a greeter returns its greeting.
 func Greet(g Greeter) string {
 	return g.SayHello()
 }
